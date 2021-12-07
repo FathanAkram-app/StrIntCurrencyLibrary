@@ -13,8 +13,21 @@ currently available currency:
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+to use this package is very simple just copy paste the github url to `pubspec.yaml`
+example :
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+
+  strintcurrency:
+    git:
+      url: "https://github.com/FathanAkram-app/StrIntCurrencyLibrary.git"
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+```
 
 ## Usage
 
