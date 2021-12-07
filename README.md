@@ -4,7 +4,9 @@ Save your time on a little logic converting a currency from integer to string or
 if you intrested to contribute to our little project that would be amazing!
 
 ## Features
+converting currency format integer to String or string to integer
 
+example :
 Convert From 650000 to "Rp. 650,000,00"
 
 currently available currency:
