@@ -22,25 +22,25 @@ integer to String
 
 ```dart
 final strintcurrency = StrIntCurrency();
-strintcurrency.intToStringID(2000);
+strintcurrency.intToStringID(2000); // it returns "Rp. 2,000,00"
 ```
-it returns "Rp. 2,000,00"
+
 
 integer to String No Symbol
 
 ```dart
 final strintcurrency = StrIntCurrency();
-strintcurrency.intToStringID(2000, symbol:false);
+strintcurrency.intToStringID(2000, symbol:false); // it returns "2,000,00"
+
 ```
-it returns "2,000,00"
 
 
 String to Integer 
 ```dart
 final strintcurrency = StrIntCurrency();
-strintcurrency.intToStringID("Rp. 2,000,00");
+strintcurrency.intToStringID("Rp. 2,000,00"); // it returns 2000
 ```
-it returns 2000
+
 
 ## Additional information
 
